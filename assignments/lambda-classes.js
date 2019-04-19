@@ -40,7 +40,24 @@ class Student{
         // return `apples`.
     }
     PRAssignment(){
-
+        //answer here
+    }
+    sprintChallenge(){
+        //answer here`student.name has begun sprint challenge on {subject}`
     }
 }//student
+
+class ProjectManager {
+    constructor(person){
+        super(ProjectManagerPerson);
+        this.gradClassName = person.gradClassName;
+        this.favInstructor = person.favInstructor;
+    }
+    standUp(){
+        //answer
+    }
+    debugsCode(){
+        //answer
+    }
+}//Project Manager
 
