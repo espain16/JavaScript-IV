@@ -18,8 +18,7 @@ class Instructor{
         super(InstructorPerson); 
             this.specialty = person.specialty;
             this.favLanguage = person.favLanguage;
-            this.catchPhrase = person.catchPhrase
-        
+            this.catchPhrase = person.catchPhrase;
         
     }
     demo(){
@@ -30,9 +29,18 @@ class Instructor{
     }
 }//instructor
 
-class student{
+class Student{
     constructor(person){
-        
+    super(StudentPerson);
+     this.previousBackground = person.previousBackground;
+     this.className = person.className;
+     this.favSubjects = person.favSubjects;   
     }
-}
+    listsSubjects(){
+        // return `apples`.
+    }
+    PRAssignment(){
+
+    }
+}//student
 
